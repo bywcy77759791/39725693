@@ -1,3 +1,4 @@
+Properties props = new Properties();
 out.close();
 if (out != null) {
 String password = props.getProperty("db.password");
