@@ -1,3 +1,4 @@
+Class.forName(driverClass);
 Connection con;
 con=DriverManager.getConnection(url, userName, password);
 public void init(FileInputStream fs) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
