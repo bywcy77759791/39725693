@@ -1,3 +1,4 @@
+out.close();
 OracleJdbcTest test = new OracleJdbcTest();
 public class OracleJdbcTest
 Class.forName(driverClass);
